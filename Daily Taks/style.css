@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.contenedor-agregar {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contenedor-agregar input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#btn-agregar {
+    background-color: #2b82d9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contenedor-pendientes {
+    background-color: #fff7a3;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contenedor-completadas {
+    background-color: #d7ffce;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.btn-eliminar {
+    background-color: red !important;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    accent-color: green;
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}

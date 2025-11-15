@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Daily Taks</title>
+</head>
+<body>
+    <h1>Daily Taks</h1>
+    <div class="contenedor">
+        <div class="contenedor-agregar">
+            <h2>Tareas Nuevas</h2>
+            <input type="text" id="nomTarea" placeholder="Digita el nombre de la tarea" required>
+            <input type="text" id="desTarea" placeholder="Digita la descripcion de la tarea" required>
+            <button id="btn-agregar">Agregar</button>
+        </div>
+        <div class="contenedor-pendientes">
+            <h2>Tareas Pendientes</h2>
+            <ul id="list">
+            </ul>
+        </div>
+        <div class="contenedor-completadas">
+            <h2>Tareas Completadas</h2>
+            <ul id="listComp">
+            </ul>
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
